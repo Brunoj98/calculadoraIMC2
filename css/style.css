@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;300;400;600&family=Inter:wght@200;300;400&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Blinker', sans-serif;
+
+}
+
+
+body {
+    background-color: #ffffff;
+}
+
+
+.container-calculadorIMC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background-image: linear-gradient(to right, #d22bf3, #04fbff);
+    border-radius: 0.7rem;
+    box-shadow: 10px 1px 20px rgb(106, 106, 106);
+}
+
+
+.area {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.area input {
+    color: rgb(0, 0, 0);
+    width: 12rem;
+    border-radius: 0.7rem;
+    font-size: 20px;
+    margin-left: 3rem
+}
+
+
+.area label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 1rem;
+    color: #fff;
+}
+
+
+.enviar {
+    background-color: #060606;
+    width: 20rem;
+    height: 3rem;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 0.7rem;
+    box-shadow: 10px 1px 20px rgb(106, 106, 106);
+}
+
+.enviar:hover {
+    background-color: #0ccacd;
+    border: 1px solid rgb(255, 145, 213);
+}
+
+.area-retorno {
+    border: 1px solid black;
+    height: 3.2rem;
+    width: 20rem;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0.7rem;
+}
+
+.area-retorno .resposta {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    box-shadow: 10px 1px 20px rgb(106, 106, 106);
+}
+
+
+.title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
